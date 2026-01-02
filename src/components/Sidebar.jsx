@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, MessageCircle, Languages } from 'lucide-react';
 
-const Sidebar = ({ data }) => {
+const SideBar = ({ data }) => {
   return (
     <div className="space-y-6">
       {/* Contact Info */}
@@ -139,4 +139,4 @@ const Sidebar = ({ data }) => {
   );
 };
 
-export default Sidebar;
+export default SideBar;

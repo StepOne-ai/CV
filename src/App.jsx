@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import Header from './components/Header';
-import Sidebar from './components/SideBar';
+import SideBar from './components/SideBar';
 import MainContent from './components/MainContent';
 import RightSidebar from './components/RightSidebar';
 import Footer from './components/Footer';
@@ -59,7 +59,7 @@ function App() {
             scrollbar-thin scrollbar-thumb-blue-600 scrollbar-track-gray-200
             ${showLeftSidebar ? 'fixed inset-y-0 left-0 w-80 z-50 overflow-y-auto p-6 bg-gray-100' : 'hidden lg:block'}
           `}>
-            <Sidebar data={resumeData} />
+            <SideBar data={resumeData} />
           </aside>
 
           {/* Main Content */}
